@@ -1,4 +1,4 @@
-let serverIp = 'localhost';
+let serverIp = '213.218.234.124';
 let serverPort = '12500';
 const address = `wss://${serverIp}:${serverPort}`;
 export const ws = new WebSocket(address);

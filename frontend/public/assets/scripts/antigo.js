@@ -1,5 +1,5 @@
 let serverIp = 'localhost';
-let serverPort = '12501';
+let serverPort = '12500';
 const address = `wss://${serverIp}:${serverPort}`;
 export const ws = new WebSocket(address);
 const localAudio = document.getElementById("localAudio");
